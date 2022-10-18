@@ -1,0 +1,53 @@
+#sitebody{
+    width:800px;
+    height:600px;
+    margin:0 auto;
+}
+
+#header{
+    background-color:orange;
+    height:100px;
+    justify-content:center
+}
+
+#nav{
+    background-color:deeppink;
+    height:30px;
+    margin-top: 5px;
+
+} 
+#aside{
+    background-color:pink;
+    height:370px;
+    width:250px;
+    float:left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+#article{
+    background-color:deepskyblue;
+    height:370px;
+    width:545px;
+    float:right;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+#section{
+    background-color:yellow;
+    height:105px;
+    width:530px;
+    position:relative;
+    left:1px;
+    top:240px
+
+
+
+}
+#footer{
+    background-color:darkseagreen; 
+    height:100px;
+    clear:both;
+    
+} 
