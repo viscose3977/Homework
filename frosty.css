@@ -1,0 +1,293 @@
+
+#sitebody{
+    max-width: 1920px;
+    margin:0 auto;
+}
+
+#header{
+    background-color:#000000;
+    width: 100%;
+    height:140px;
+    display: flex;
+    justify-content:space-between;
+    position:flex
+}
+#content{
+    background-image:url("./static/depth.png");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    width: 100%;
+    height:800px;
+    position:flex
+}
+#content1{
+    background-image:url("./static/depth.png");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    width: 100%;
+    height:900px;
+    position:flex
+}
+#footer{
+    background-color:#000000; 
+    text-align:center;
+    height:140px;
+    width: 100%;
+    position:flex
+} 
+
+/*structures above*/
+
+.logo{
+    font-family:'Great Vibes', cursive;
+    font-size:40px;
+    font-weight: normal;
+    line-height: normal;
+    color:white;
+    align-self: flex-end;
+    position: relative;
+    top: -35px;
+    left: 200px;
+}
+
+.logopic{
+    width:30px;
+    position:relative;
+    top:-5px;
+    left:11px
+
+}
+.statement{
+    font-family:'Noto Serif TC', serif,'Cinzel', serif;
+    font-size:22px;
+    font-weight: normal;
+    line-height: normal;
+    color:white;
+    position:relative;
+    top:-2px;
+    
+}
+
+/*header inner design*/
+
+.frosty{
+    width:30%;
+    line-height: normal;
+    position:relative;
+    top:90px;
+    left:35%
+}
+
+.star{
+    width:8%;
+    line-height: normal;
+    position:relative;
+    top:10%;
+    left:2%
+}
+
+.fn{
+    font-family:'Cinzel', serif;
+    font-size:26px;
+    font-weight:50%;
+    line-height: normal;
+    color:white;
+    text-align:center;
+    position:relative;
+    top:210px;
+    left: 7%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+.navitem{
+    display: inline-block ;
+    flex-direction:column;
+    margin: 0 50px;
+    align-items: center;
+    position: relative;
+    top:160px;
+
+}
+.navitem_text{
+    display: inline-block ;
+    font-family:'Cinzel', serif,'Noto Serif TC', serif;
+    font-size:20px;
+    color:white;
+    text-align:center;
+    text-decoration: none!important;
+}
+
+.navitem_icon{
+    width: 40%;
+    display: flex;
+    position:relative;
+    left:27%;
+
+}
+.navitem_icon:hover{
+    width: 38%;
+}
+
+.quotations{
+    font-family:'Cinzel', serif;
+    font-size:16px;
+    font-weight: normal;
+    line-height: normal;
+    color:white;
+    text-align:center;
+    position:relative;
+    top:30%;
+}
+
+/*content 1st page inner design*/
+
+.navitem1{
+    display: flex;
+    flex-direction:column;
+    margin-left:130px;
+    align-items: center;
+    position: relative;
+    top:-10px;
+    left:-10%
+}
+.navitem_text1{
+    font-family:'Cinzel', serif,'Noto Serif TC', serif;
+    font-size:20px;
+    color:white;
+    text-decoration:none;
+    text-align:center;
+}
+.navitem_icon1{
+    width: 40%;
+    display: flex;
+    position: relative;
+    left:27%
+}
+.navitem_icon1:hover{
+    width: 38%;
+}
+
+.circular{
+    border-radius:50%;
+    width:300px;
+    display:flex;
+    position:relative;
+    top: -80px;
+    left: 42%
+}
+
+.navitem2{
+    display: flex;
+    margin-left:130px;
+    position: relative;
+    top:8px;
+    left:-5%
+}
+.navitem_text2{
+    font-family:'Cinzel', serif,'Noto Serif TC', serif;
+    font-size:9px;
+    color:white;
+    text-decoration:none;
+    text-align:center;
+}
+.navitem_icon2{
+    width: 24%;
+    display: flex;
+    position: relative;
+    left:36%
+}
+
+/*content 2nd page inner design*/
+
+
+.h1{
+    font-family: 'Dancing Script', cursive;
+    font-size:60px;
+    font-weight: bold;
+    line-height: normal;
+    width:300px;
+    color:white;
+    display:flex;
+    position: relative;
+    top:20px;
+    left: 45%;
+}
+
+.h1stars{
+    width:110px;
+    line-height: normal;
+    position:relative;
+    top:-100px;
+    left:40%
+}
+.p1{
+    font-family:'Noto Serif TC', serif,'Cinzel', serif;
+    font-size:15px;
+    font-weight: normal;
+    line-height: normal;
+    color:white;
+    position:relative;
+    top:-110px;
+    left:40%
+    
+}
+
+.p2{
+    font-family:'Noto Serif TC', serif,'Cinzel', serif;
+    font-size:16px;
+    font-weight: normal;
+    line-height: 60px;
+    width: 300px;
+    color:white;
+    position:relative;
+    top:-60px;
+    left:30%;
+}
+/*line themes and font design*/
+
+
+
+/* animations */
+
+
+@media (max-width: 575.98px) { 
+    .custom-class {
+        display: block;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .custom-class {
+        display: block;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .custom-class {
+        display: block;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .custom-class {
+        display: block;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .custom-class {
+        display: block;
+    }
+}
+
+/* media query */
